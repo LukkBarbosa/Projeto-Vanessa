@@ -15,8 +15,8 @@ Atender aos requisitos da 1ª Avaliação (AV1) do semestre:
 - Model da tabela criada adequadamente.
 - Rotas para 4 páginas: **Home, Sobre, Cadastro e Produtos**.
 - Formulário com botões de **Enviar** e **Apagar**.
-- Documentação da aplicação (este README).
-- Trello com atividades de cada membro (link abaixo).
+- Documentação da aplicação.
+- Trello com atividades de cada membro .
 
 ---
 
@@ -125,13 +125,13 @@ Conforme exigência do enunciado, o formulário e a tabela possuem os campos:
 
 | Nome            | Função                         |
 |-----------------|--------------------------------|
-| Everton Rodrigues Laurindo da Silva 01815700    | Back-end / rotas               |
+| Everton Rodrigues Laurindo da Silva 01815700    | rotas                          |
 | Kaio Henrique do Nascimento souza 01807905      | Model e banco de dados         |
 | Anderson Amós da Silva 01814150                 | Views / EJS                    |
 | João Victor dos Santos Saraiva 01816062         | CSS / front                    |
 | Pedro Saulo Souza Bandeira Da Cruz 01806043     | Documentação                   |
-| Lucas Barbosa Almeida 01803535                  | Trello                |
-| Lucas Vinicius Nogueira da Silva - 01802044     | Trello                |
+| Lucas Barbosa Almeida 01803535                  | Trello                         |
+| Lucas Vinicius Nogueira da Silva - 01802044     | Back-End                       |
 
 
 ---
@@ -139,7 +139,7 @@ Conforme exigência do enunciado, o formulário e a tabela possuem os campos:
 ## 9. Trello
 
 Quadro com as atividades de cada membro:
-`https://trello.com/b/SEU-LINK-AQUI` *(substituir pelo link real do grupo)*
+
 
 ---
 
