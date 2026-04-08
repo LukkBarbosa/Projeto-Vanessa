@@ -1,0 +1,48 @@
+<%- include('partials/header') %>
+
+<section>
+  <h2>Produtos Cadastrados</h2>
+
+  <% if (produtos.length === 0) { %>
+    <p>Nenhum produto cadastrado ainda. <a href="/produtos/cadastro">Cadastrar agora</a>.</p>
+  <% } else { %>
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>Valor</th>
+          <th>Descrição</th>
+          <th>Fornecedor</th>
+          <th>E-mail</th>
+          <th>Telefone</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% produtos.forEach(p => { %>
+          <tr>
+            <td><%= p.id %></td>
+            <td><%= p.nome %></td>
+            <td>R$ <%= Number(p.valor).toFixed(2) %></td>
+            <td><%= p.descricao %></td>
+            <td><%= p.fornecedor %></td>
+            <td><%= p.email %></td>
+            <td><%= p.telefone %></td>
+            <td class="acoes-tabela">
+              <a class="btn btn-pequeno" href="/produtos/<%= p.id %>/editar">Editar</a>
+              <form action="/produtos/<%= p.id %>?_method=DELETE" method="POST" style="display:inline">
+                <button type="submit" class="btn btn-pequeno btn-apagar"
+                        onclick="return confirm('Deseja realmente apagar este produto?')">
+                  Apagar
+                </button>
+              </form>
+            </td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  <% } %>
+</section>
+
+<%- include('partials/footer') %>

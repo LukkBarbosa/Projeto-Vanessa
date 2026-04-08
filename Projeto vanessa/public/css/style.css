@@ -1,0 +1,102 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f2f5f9;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+header {
+  background: #1d3557;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 { margin-bottom: 10px; }
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav a:hover { text-decoration: underline; }
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+h2 { margin-bottom: 15px; color: #1d3557; }
+h3 { margin: 20px 0 10px; color: #1d3557; }
+p, li { margin-bottom: 8px; }
+ul { margin-left: 20px; }
+
+.hero { text-align: center; padding: 20px 0; }
+
+.btn {
+  display: inline-block;
+  background: #2a9d8f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 5px;
+}
+.btn:hover { background: #21867a; }
+
+.btn-secundario { background: #6c757d; }
+.btn-secundario:hover { background: #565e64; }
+
+.btn-apagar { background: #e63946; }
+.btn-apagar:hover { background: #b72b38; }
+
+.btn-pequeno { padding: 6px 12px; font-size: 0.9em; }
+
+.form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.form input, .form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  font-family: inherit;
+}
+.acoes { margin-top: 15px; }
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+.tabela th, .tabela td {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  font-size: 0.95em;
+}
+.tabela th { background: #1d3557; color: #fff; }
+.tabela tr:hover { background: #f8fafc; }
+
+.acoes-tabela { white-space: nowrap; }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 0.9em;
+}
