@@ -139,7 +139,7 @@ Conforme exigência do enunciado, o formulário e a tabela possuem os campos:
 ## 9. Trello
 
 Quadro com as atividades de cada membro:
-
+https://trello.com/invite/b/69d6cc28d62ff2b15548ef6b/ATTI9796f3ec8f6b85218391a4fd3e1cb0a1B6107B5E/projeto-av1-ods-12
 
 ---
 
